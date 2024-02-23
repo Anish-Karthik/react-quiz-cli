@@ -1,0 +1,25 @@
+{
+  "name": "anish-react-quiz",
+  "version": "1.0.6",
+  "description": "Who wants to be a React millionaire?",
+  "type": "module",
+  "homepage": "https://portfolio-anish-karthik.vercel.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anish-karthik/react-quiz-cli.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Anish-Karthik",
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.15",
+    "nanospinner": "^1.1.0"
+  }
+}
